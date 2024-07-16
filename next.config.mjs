@@ -8,12 +8,15 @@ const nextConfig = {
     
         return config;
     },
-    
+
     images:{
-        domains:[
-            "utfs.io"
-        ]
+        remotePatterns: [
+            {
+              hostname: 'utfs.io'
+            },
+          ],
     }
+    
 };
 
 
